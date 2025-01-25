@@ -1,0 +1,31 @@
+
+header {
+    background-color: #ffffff; /* Color de fondo para el encabezado */
+    color: rgb(58, 126, 204);
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  footer {
+    background-color: #fefeff; /* Color de fondo para el pie de página */
+    color: rgb(255, 255, 255);
+    text-align: left;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  section {
+    padding: 20px;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+
+.suplementos {
+ font-family: Arial, sans-serif;
+ background-color: #fffafa; /* Color de fondo para toda la página */
+ margin: 0;
+ padding: 0;
+color: #321abb; /* Color del texto */
+}
