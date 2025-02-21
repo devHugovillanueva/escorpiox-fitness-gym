@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Encuesta de Satisfacción</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Encuesta de Satisfacción</h1>
+        <form id="surveyForm">
+            <label for="satisfaction">¿Cómo calificaría su experiencia general?</label>
+            <select id="satisfaction" required>
+                <option value="">Seleccione una opción</option>
+                <option value="Excelente">Excelente</option>
+                <option value="Buena">Buena</option>
+                <option value="Regular">Regular</option>
+                <option value="Mala">Mala</option>
+            </select>
+
+            <label for="comments">Comentarios adicionales:</label>
+            <textarea id="comments" rows="4" cols="50"></textarea>
+
+            <button id="refresh">Actualizar Página</button>
+        <div id="result"></div>
+        </form>
+        <div id="result"></div>
+    </div>
+
+    <script src="paginaweb.js"></script>
+</body>
+</html>
